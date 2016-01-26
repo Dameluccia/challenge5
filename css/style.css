@@ -1,0 +1,12 @@
+nav h1{
+    display: inline-block;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+    /*margin-left: 20em;*/
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 3em;
+}
