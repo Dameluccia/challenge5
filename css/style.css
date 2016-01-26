@@ -1,12 +1,18 @@
-nav h1{
-    display: inline-block;
+
+.navbar-inverse .navbar-nav>li>a{
+    color:white;
 }
-nav ul{
-    list-style: none;
-    display: inline-block;
-    /*margin-left: 20em;*/
+.navbar-inverse .navbar-brand {
+    color:white;
 }
-nav ul li{
-    display: inline-block;
-    margin-left: 3em;
+
+@media (min-width: 768px){
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    border: none;
+}
+}
+.paddingimg{
+    padding: 0;
 }
