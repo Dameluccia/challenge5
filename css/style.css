@@ -1,18 +1,165 @@
-
-.navbar-inverse .navbar-nav>li>a{
+body {
+    color: #969696;
+}
+p{
+    margin: 0;
+}
+.navbar-nav>li>a{
     color:white;
 }
-.navbar-inverse .navbar-brand {
+.nav>li>a:hover{
+    background-color: #24890D;
+}
+.navbar-header .challenge{
     color:white;
 }
 
-@media (min-width: 768px){
-.navbar {
+#nav {
     border-radius: 0;
     margin-bottom: 0;
     border: none;
+    background-color: black;
+
 }
+#nav>div{
+    padding: 0;
+}
+.challenge{
+    padding-left: 2em;
+}
+.navbar-nav>li:last-child{
+    background-color: #24890D;
 }
 .paddingimg{
     padding: 0;
+}
+.row div ul{
+    list-style: none;
+    padding: 0;
+}
+.blackground{
+    background-color: black;
+    color: white;
+}
+.menu-gauche ul li{
+    border-top: 1px solid grey;
+    padding: 0.5em 0;
+}
+.menu-gauche ul li:hover{
+    background-color: #24890D;
+
+}
+#border_wordpress{
+    border-bottom: 1px solid grey;
+}
+.menu-gauche{
+    background-color: black;
+    padding: 0;
+
+}
+.divborder ul li a{
+    color: white;
+    margin-left: 2em;
+    font-size: 0.8em;
+}
+.fa.pull-right{
+    line-height: 1.4em;
+    font-size: 1.4em;
+    padding-right: 2em;
+}
+.divborder input {
+    background-color: #191919;
+    border-radius: 3px;
+    border: 1px solid #666;
+    padding: 4px 4px 4px 4px;
+    font-size: 0.8em;
+    margin: 3.5em 0 3.5em 2em;
+}
+.divmarge{
+    margin: 0 1.8em;
+}
+.divmarge h3 {
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+.divmarge img{
+    margin-bottom: 1em;
+}
+.divmarge ul li {
+    border: none;
+    padding: 0.2em 0;
+}
+.divmarge ul li a{
+    color: white;
+}
+.italics{
+    font-style: italic;
+}
+#listen {
+    color: white;
+}
+.thanks{
+    margin: 3em 0;
+    font-size: 0.9em;
+}
+#twenty{
+    font-size: 0.82em;
+    margin-bottom: 9em;
+}
+#twentyf{
+    margin-left: 2em;
+    padding-bottom: 1.7em;
+    font-size: 0.8em;
+}
+.titre-sous-img{
+    margin: 0.6em 0;
+}
+.nowell{
+    font-size: 1.3em;
+    margin-bottom: 2em;
+}
+.gigs{
+    border-top: 6px solid black;
+    margin-top: 5em;
+}
+.gigs h2{
+    font-size: 1.3em;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+#idspokane{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 0.5em 0;
+}
+.spokane{
+    margin: 0.5em 0;
+}
+.spokane a{
+    color: #24890D;
+}
+.video{
+    margin-top: 4em;
+}
+.video h2{
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    border-top: 4px solid black;
+}
+.video p{
+    font-size: 0.9em;
+}
+.video p a{
+    color: #24890D;
+}
+#pave{
+    margin: 20em 0 3em 0;
+}
+footer{
+    background-color: black;
+    padding: 1.5em;
 }
