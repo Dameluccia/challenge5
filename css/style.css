@@ -1,5 +1,6 @@
 body {
     color: #969696;
+    font-family: "Lato", sans-serif;
 }
 p{
     margin: 0;
@@ -23,6 +24,10 @@ p{
 }
 #nav>div{
     padding: 0;
+}
+
+.paddingleft{
+    padding-left: 15px;
 }
 .challenge{
     padding-left: 2em;
@@ -106,12 +111,17 @@ p{
 }
 #twenty{
     font-size: 0.82em;
-    margin-bottom: 9em;
+    margin-bottom: 18em;
+}
+#twenty a{
+    color: white;
+    font-weight: bold;
 }
 #twentyf{
     margin-left: 2em;
     padding-bottom: 1.7em;
     font-size: 0.8em;
+    margin-top: 1em;
 }
 .titre-sous-img{
     margin: 0.6em 0;
@@ -141,8 +151,15 @@ p{
 .spokane a{
     color: #24890D;
 }
+#h2audiotheme{
+    margin-top: 2.5em;
+    color: black;
+    font-size: 2.2em;
+}
 .video{
     margin-top: 4em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1em;
 }
 .video h2{
     font-size: 1em;
@@ -156,8 +173,27 @@ p{
 .video p a{
     color: #24890D;
 }
+.video i{
+    padding: 0.6em 0.8em;
+    border: 1px black solid;
+    color: white;
+    background-color: black;
+    margin-right: 0.9em;
+}
+.imgvideo{
+    margin-bottom: 0.7em;
+}
 #pave{
     margin: 20em 0 3em 0;
+    color: #444;
+}
+#pave a{
+    color: #24890D;
+    text-decoration: underline;
+}
+#pave2{
+    margin-bottom: 3em;
+    color: #444;
 }
 footer{
     background-color: black;
